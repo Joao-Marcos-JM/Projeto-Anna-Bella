@@ -1,0 +1,78 @@
+
+*{padding: 0;
+margin: 0;}
+body{
+	background-image: url("https://webgradients.com/public/webgradients_png/002%20Night%20Fade.png");
+	background-attachment: fixed;
+
+}
+button{
+	margin: 40px ;
+	color: white;
+	background: mistyrose;
+	transition: transform 1s;
+   transform: translateX(5px) scale(1.0);
+}
+button:hover,
+button:focus {
+	background: royalblue;
+	transform: translateX(10px) scale(1.5);
+}
+
+
+div{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+}
+.quadrado {
+	background: mediumslateblue;
+	width: 60px;
+	height: 70px;
+	animation:  go-back 3s infinite alternate;
+}
+
+@keyframes go-back {
+	from {
+		transform: translateX(150px);
+	}
+	to{
+		transform: translateX(60);
+	}
+}
+
+@keyframes go-back {
+	from {
+		transform: translateY(200px);
+	}
+	to{
+		transform: translateY(60px);
+	}}
+
+div{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+}
+.ball {
+
+  background: steelblue;
+	width: 60px;
+	height: 70px;
+	animation:  go-back 3s infinite alternate;
+}
+
+@keyframes go-back {
+    from { transform: translateY(200px); 
+    }
+    to{ transform: translateY(60px);
+}}
+
+#redondo{
+	font-family: cursive 30px;
+	color: green;
+	width: ;
+	height: ;
+}
